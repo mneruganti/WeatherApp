@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>Weather In {{ title }}</title>
     <link href="{{url_for('static', filename='styles/style.css')}}"" rel="stylesheet" />
 </head>
 <body>
-    <h1>{{ title }}</h1>
+    <h1>Weather In {{ title }}</h1>
 
     <p>{{  status  }} and {{  temp  }} &deg;</p>
     <p>Feels like {{  feels_like  }} &deg;</p>
